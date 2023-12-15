@@ -1,38 +1,164 @@
-.App {
+
+.Ctitle{
+  font-style: italic;
+  color: white;
+  font-weight: bolder;
+  margin-left: 3rem;
+}
+
+#logo{
+  font-style: italic;
+  font-family: fantasy;
+}
+
+#content{
+  padding-left: 5rem;
+}
+
+#in{
+  padding-left: 25rem;
+}
+
+#M1{
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: lighter;
+}
+
+
+#rsubmit{
+  margin-left: 47%;
+  background-color: firebrick;
+}
+
+#regi{
+  color: white;
+  background-color: gray;
+  font-weight: bold;
+}
+
+#rlogin{
+  background-color: white;
+  color: black;
+}
+
+#lreg{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.ftext{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Mtitle{
+  color: white;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Mtitle3{
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+#A1{
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-style: italic;
+}
+
+#A2text{
+  padding-top: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.Adiv{
+  background-color: black;
+}
+
+#A2title{
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+#A3text{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#SS{
+  background-color: black;
+}
+
+#S1{
+  font-family: 'Times New Roman', Times, serif;
+  padding: 2rem;
+}
+
+#logdiv{
+  background-color: black;
+  padding: 3rem;
+  text-align: center;
+}
+
+.logg{
+  color: white;
+  padding: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#logcol{
+  background-color: gray;
+  border-radius: 10%;
+  height: 22rem;
+}
+
+.logtitle{
+  padding-top: 2rem;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+#SW{
+  margin-top: 2rem;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+}
+
+#ic{
+  padding: 2rem;
+  color: white;
+}
+
+.ftext1{
+  font-family: 'Times New Roman', Times, serif;
+  color: whitesmoke;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+.Hdiv{
+  background-color: black;
+}
+#HW{
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  color: white;
+  text-align: center;
+}
+
+#api{
+  margin-bottom: 5rem;;
 }
